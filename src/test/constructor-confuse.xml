@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xmlns:c="http://www.springframework.org/schema/c"
+        >
+        
+        
+        <bean id="consconfuseId" class="model.ConstructorConfuse">
+        
+        	<constructor-arg >
+        	
+        	<value>100</value>
+        	
+        	
+        	</constructor-arg>
+        
+        </bean>
+        
+        
+         <bean id="consconfuse2Id" class="model.ConstructorConfuse">
+        
+        	<constructor-arg type="int">
+        	
+        	<value>100</value>
+        	
+        	
+        	</constructor-arg>
+        
+        </bean>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </beans>

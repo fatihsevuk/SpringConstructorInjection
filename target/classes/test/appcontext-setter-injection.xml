@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xmlns:c="http://www.springframework.org/schema/c"
+        
+        
+        >
+
+	<bean id="empId" class="model.Employee">
+		<constructor-arg value="fatih" />
+		<constructor-arg value="sevük" />
+		<constructor-arg value="2000" />
+		<constructor-arg value="1989" />
+		<constructor-arg value="M" />
+		
+	</bean>
+	
+	
+	<bean id="emp2Id" class="model.Employee"
+	
+		c:name="Test"
+		c:surname="testtest"
+		c:salary="1000"
+		c:birthYear="1300"
+		c:gender="M"
+	
+	/>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</beans>
